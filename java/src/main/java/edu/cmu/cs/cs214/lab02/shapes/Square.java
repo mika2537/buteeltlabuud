@@ -10,4 +10,11 @@ public class Square implements Shape {
     public double getArea() {
         return sideLen * sideLen;
     }
+
+    @Override
+    public void draw() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'draw'");
+    }
+    
 }
